@@ -13,3 +13,4 @@ router.get("/get-all-news", getAllNews);
 router.get("/get-total-news-count", getTotalNewsCount);
 
 module.exports = router;
+
