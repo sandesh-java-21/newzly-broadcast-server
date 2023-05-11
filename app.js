@@ -43,7 +43,10 @@ const io = require("socket.io")(http, {
 });
 
 app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // replace with your frontend URL
+  res.header(
+    "Access-Control-Allow-Origin",
+    "https://newzly-zabefest.000webhostapp.com"
+  ); // replace with your frontend URL
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
